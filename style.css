@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    background-color: gray;
+    display: flex;
+    margin: 3px;
+    
+}
+
+.start{
+    justify-content: flex-start;
+}
+
+.end{
+    justify-content: flex-end;
+}
+
+.center{
+    justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+.filho{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.blue{
+    background-color: #63b1bc;
+}
+
+.dark_blue{
+    background-color: #1f2a44;
+    color: white;
+}
+
+.pink{
+    background-color: #ed145b;
+}
+
+.yellow{
+    background-color: #efb661;
+}
+
+/* Insira o código abaixo */
+.exercicioB {
+
+flex-direction: column-reverse;
+}
+
+.desafio{
+
+flex-direction: row-reverse;
+justify-content: left;
+
+
+}
+
+
+
+
+.flex-item {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box1{
+    background-color: #63b1bc;
+
+
+}
+.box2{
+    background-color: #1f2a44;
+    color: white;
+
+}
+.box3{
+    background-color: #ed145b;
+
+
+}
+.box4{
+
+    background-color: #efb661;
+}
+
